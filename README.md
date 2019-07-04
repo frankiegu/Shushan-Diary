@@ -18,3 +18,4 @@
 仙侠游戏中很多内容不适合翻译成英文，所以代码里很多变量名用了拼音。
 
 ## 小程序码
+![qr_code](https://github.com/jokersandwich/Shushan-Diary/blob/master/image/qr_code.jpg)
