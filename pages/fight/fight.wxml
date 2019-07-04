@@ -1,0 +1,17 @@
+<!--pages/fight/fight.wxml-->
+<view class='container'>
+  <view wx:if="{{loading}}" class='wrap'>
+    <view class='text-area'>
+      遇到战斗，正在进入战斗
+    </view>
+  </view>
+  <view wx:else class='wrap'>
+    <view class='text-area'>
+      {{text}}
+    </view>
+    <view class='btn-area'>
+      <button wx:for="{{wayToWin}}" wx:key="*this" class='btn-fight' bindtap='bindFightTap'>{{item}}</button>
+      <button class='btn-escape' bindtap='bindEscapeTap'>逃避战斗</button>
+    </view>
+  </view>
+</view>

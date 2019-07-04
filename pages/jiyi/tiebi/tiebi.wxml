@@ -1,0 +1,14 @@
+<!--pages/jiyi/tiebi/tiebi.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <view class='menu-button' bindtap='bindLinmoTap'>
+      <view class='name'>临摹字帖</view>
+      <view class='detail'>修为+1 书法+1</view>
+    </view>
+    <view wx:if="{{shufa >= 10}}" class='menu-button' bindtap='bindXieziTap'>
+      <view class='name'>写字</view>
+      <view class='detail'>修为+1 书法+3</view>
+    </view>
+  </view>
+</view>
+

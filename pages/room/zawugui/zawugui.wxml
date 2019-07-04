@@ -1,0 +1,9 @@
+<!--pages/room/zawugui/zawugui.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <navigator wx:for="{{zawugui}}" wx:key="id" class='menu-button' url="{{'/pages/room/zawu/zawu?id=' + item.id}}">
+      <view class='name'>{{item.name}}</view>
+    </navigator>
+  </view>
+</view>
+

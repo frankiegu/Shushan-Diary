@@ -1,0 +1,9 @@
+<!--pages/room/yao/yao.wxml-->
+<view class='container'>
+  <view class='wrap'>
+    <view class='header' style='flex: 1;'>
+      <view class='name'>{{yao.name}}</view>
+      <view class='detail'>{{yao.detail}}</view>
+    </view>
+  </view>
+</view>

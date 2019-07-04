@@ -1,0 +1,33 @@
+<!--pages/xiulian/xiulian.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <view class='menu-button' bindtap='bindHuijianTap'>
+      <view class='name'>挥剑</view>
+      <view class='detail'>修为+3</view>
+    </view>
+    <view wx:if="{{role != 'shushandizi'}}" class='menu-button' bindtap='bindYujianshuTap'>
+      <view class='name'>御剑术</view>
+      <view class='detail'>修为+3</view>
+    </view>
+    <view wx:if="{{role != 'shushandizi'}}" class='menu-button' bindtap='bindBingzhouTap'>
+      <view class='name'>冰咒</view>
+      <view class='detail'>修为+3</view>
+    </view>
+    <view wx:if="{{role != 'shushandizi'}}" class='menu-button' bindtap='bindYanzhouTap'>
+      <view class='name'>炎咒</view>
+      <view class='detail'>修为+3</view>
+    </view>
+    <view wx:if="{{role != 'shushandizi'}}" class='menu-button' bindtap='bindLeizhouTap'>
+      <view class='name'>雷咒</view>
+      <view class='detail'>修为+3</view>
+    </view>
+    <view wx:if="{{role != 'shushandizi'}}" class='menu-button' bindtap='bindFengzhouTap'>
+      <view class='name'>风咒</view>
+      <view class='detail'>修为+3</view>
+    </view>
+    <view wx:if="{{role != 'shushandizi'}}" class='menu-button' bindtap='bindTuzhouTap'>
+      <view class='name'>土咒</view>
+      <view class='detail'>修为+3</view>
+    </view>
+  </view>
+</view>

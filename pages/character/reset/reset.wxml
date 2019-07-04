@@ -1,0 +1,4 @@
+<!--pages/character/reset/reset.wxml-->
+<view class='container'>
+  <button bindtap='bindResetTap' class='btn-escape'>删除人物</button>
+</view>

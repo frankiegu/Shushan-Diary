@@ -1,0 +1,14 @@
+<!--pages/room/wuqi/wuqi.wxml-->
+<view class='container'>
+  <view class='wrap'>
+    <view class='header' style='flex: 1;'>
+      <view class='name'>{{wuqi.name}}</view>
+      <view class='detail'>+{{wuqi.value}}</view>
+      <view class='detail'>{{wuqi.detail}}</view>
+    </view>
+    <view class='btn-area'>
+      <button class='btn-fight' bindtap='bindUseTap'>以{{wuqi.name}}为武器</button>
+    </view>
+  </view>
+</view>
+

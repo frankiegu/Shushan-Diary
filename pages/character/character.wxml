@@ -1,0 +1,28 @@
+<!--pages/character/character.wxml-->
+<view class='container'>
+  <view class='header'>
+    <view>{{date}}</view>
+    <navigator url='/pages/character/reset/reset'>
+      <view><open-data type="userNickName"></open-data></view>
+      <view>{{roleText}}</view>
+    </navigator>
+    <view>武器 {{wuqi.name}}</view>
+    <view>技能 {{jineng.name}}</view>
+    <view>战力 {{zhanli}}</view>
+    <view>修为 {{xiuwei}}</view>
+    <view>贡献 {{gongxian}}</view>
+    <view>医术 {{yishu}}</view>
+    <view>棋艺 {{qiyi}}</view>
+    <view>酒量 {{jiuliang}}</view>
+    <view>学识 {{xueshi}}</view>
+    <view>书法 {{shufa}}</view>
+    <view>音律 {{yinlv}}</view>
+    <view>锻造 {{duanzao}}</view>
+    <view>水 {{shui}}</view>
+    <view>火 {{huo}}</view>
+    <view>雷 {{lei}}</view>
+    <view>风 {{feng}}</view>
+    <view>土 {{tu}}</view>
+  </view>
+</view>
+      

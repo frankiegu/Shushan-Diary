@@ -1,0 +1,29 @@
+/**index.wxss**/
+.bgm {
+  position: fixed;
+  bottom: 32rpx;
+  left: 32rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border: 1rpx solid #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .8;
+}
+
+.img {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.rotate {
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate
+{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}

@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class='container'>
+  <view class='bgm {{bgm ? "rotate" : ""}}' bindtap='playBgm'>
+    <image class='img' src='../../image/music.png'></image>
+  </view>
+  <view class='header' style="margin-bottom: 0px;">
+    <view>{{date}}</view>
+    <view>{{roleText}}</view>
+    <view>修为 {{xiuwei}}</view>
+    <view>贡献 {{gongxian}}</view>
+  </view>
+  <view wx:if="{{!(time >= 3600)}}" class='menu'>
+    <navigator class='menu-button' url='/pages/zawu/zawu'>
+      <view class='name'>杂务</view>
+    </navigator>
+    <navigator class='menu-button' url='/pages/xiulian/xiulian'>
+      <view class='name'>修炼</view>
+    </navigator>
+    <navigator wx:if="{{role != 'shushandizi'}}" class='menu-button' url='/pages/youli/youli'>
+      <view class='name'>游历</view>
+    </navigator>
+    <navigator wx:if="{{role != 'shushandizi'}}" class='menu-button' url='/pages/jiyi/jiyi'>
+      <view class='name'>技艺</view>
+    </navigator>
+    <navigator wx:if="{{role == 'zhanglao' || role == 'daizhangmen' || role == 'wusheng' || role == 'yisheng' || role == 'qisheng' || role == 'jiusheng' || role == 'shusheng' || role == 'bisheng' || role == 'yinsheng' || role == 'zhangmen'}}" class='menu-button' url="{{'/pages/biguan/biguan?role=' + role}}">
+      <view class='name'>闭关</view>
+    </navigator>
+  </view>
+  <view wx:else>这名蜀山弟子已经去世</view>
+</view>

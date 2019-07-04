@@ -1,0 +1,12 @@
+<!--pages/room/shujia/shujia.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <navigator wx:for="{{shujia}}" wx:key="id" class='menu-button' url="{{'/pages/room/shu/shu?id=' + item.id}}">
+      <view class='name'>
+        <text>{{item.name}}</text>
+        <text wx:if="{{item.value >= 0}}">心得</text>
+      </view>
+      <view wx:if="{{item.value >= 0}}" class='detail'>*{{item.value}}</view>
+    </navigator>
+  </view>
+</view>

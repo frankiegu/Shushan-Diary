@@ -1,0 +1,11 @@
+<!--pages/event/event.wxml-->
+<view class='container'>
+  <view class='wrap'>
+    <view class='text-area'>
+      {{text}}
+    </view>
+    <view class='btn-area'>
+      <button class='btn-primary' bindtap='bindConfirmTap'>确定</button>
+    </view>
+  </view>
+</view>

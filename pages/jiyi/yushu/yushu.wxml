@@ -1,0 +1,13 @@
+<!--pages/jiyi/yushu/yushu.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <view class='menu-button' bindtap='bindZhenglidianjiTap'>
+      <view class='name'>整理书架</view>
+      <view class='detail'>修为+1 学识+1</view>
+    </view>
+    <view wx:if="{{xueshi >= 10}}" class='menu-button' bindtap='bindCanyuedianjiTap'>
+      <view class='name'>读书</view>
+      <view class='detail'>修为+1 学识+3</view>
+    </view>
+  </view>
+</view>

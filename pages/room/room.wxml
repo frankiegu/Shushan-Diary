@@ -1,0 +1,17 @@
+<!--pages/room/room.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <navigator class='menu-button' url='/pages/room/shujia/shujia'>
+      <view class='name'>书架</view>
+    </navigator>
+    <navigator class='menu-button' url='/pages/room/wuqijia/wuqijia'>
+      <view class='name'>武器架</view>
+    </navigator>
+    <navigator class='menu-button' url='/pages/room/yaogui/yaogui'>
+      <view class='name'>药柜</view>
+    </navigator>
+    <navigator class='menu-button' url='/pages/room/zawugui/zawugui'>
+      <view class='name'>杂物柜</view>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<!--pages/biguan/biguan.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <view class='menu-button' bindtap='bindBiguanTap'>
+      <view class='name'>闭关</view>
+      <view class='detail'>修为+{{addXiuwei}}</view>
+    </view>
+  </view>
+</view>

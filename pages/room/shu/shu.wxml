@@ -1,0 +1,16 @@
+<!--pages/room/shu/shu.wxml-->
+<view class='container'>
+  <view class='wrap'>
+    <view class='header' style='flex: 1;'>
+      <view class='name'>
+        <text>{{shu.name}}</text>
+        <text wx:if="{{shu.value >= 0}}">心得</text>
+      </view>
+      <view wx:if="{{shu.value >= 0}}" class='detail'>*{{shu.value}}</view>
+      <view class='detail'>{{shu.detail}}</view>
+    </view>
+    <view wx:if="{{shu.value >= 0}}" class='btn-area'>
+      <button class='btn-fight' bindtap='bindUseTap'>将{{shu.name}}作为技能</button>
+    </view>
+  </view>
+</view>

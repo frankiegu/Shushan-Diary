@@ -1,0 +1,9 @@
+<!--pages/youli/youli.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <view class='menu-button' bindtap='bindYouliTap'>
+      <view class='name'>外出游历</view>
+      <view class='detail'>修为+1</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/jiyi/ziyin/ziyin.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <view class='menu-button' bindtap='bindWakuangTap'>
+      <view class='name'>挖矿</view>
+      <view class='detail'>修为+1 锻造+1</view>
+    </view>
+    <view wx:if="{{duanzao >= 10}}" class='menu-button' bindtap='bindZhujianTap'>
+      <view class='name'>铸剑</view>
+      <view class='detail'>修为+1 锻造+3</view>
+    </view>
+  </view>
+</view>

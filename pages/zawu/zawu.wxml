@@ -1,0 +1,9 @@
+<!--pages/zawu/zawu.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <navigator class='menu-button' url='/pages/event/event?event=menpaishiwu' open-type='redirect' bindtap='bindMenpaishiwuTap'>
+      <view class='name'>门派事务</view>
+      <view class='detail'>修为+1 贡献+3</view>
+    </navigator>
+  </view>
+</view> 

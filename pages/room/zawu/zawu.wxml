@@ -1,0 +1,9 @@
+<!--pages/room/zawu/zawu.wxml-->
+<view class='container'>
+  <view class='wrap'>
+    <view class='header' style='flex: 1;'>
+      <view class='name'>{{zawu.name}}</view>
+      <view class='detail'>{{zawu.detail}}</view>
+    </view>
+  </view>
+</view>

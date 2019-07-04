@@ -1,0 +1,13 @@
+<!--pages/jiyi/caogu/caogu.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <view class='menu-button' bindtap='bindCaiyaoTap'>
+      <view class='name'>采药</view>
+      <view class='detail'>修为+1 医术+1</view>
+    </view>
+    <view wx:if="{{yishu >= 10}}" class='menu-button' bindtap='bindLiandanTap'>
+      <view class='name'>炼丹</view>
+      <view class='detail'>修为+1 医术+3</view>
+    </view>
+  </view>
+</view>

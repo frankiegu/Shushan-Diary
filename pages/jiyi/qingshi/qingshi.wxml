@@ -1,0 +1,13 @@
+<!--pages/jiyi/qingshi/qingshi.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <view class='menu-button' bindtap='bindDapuTap'>
+      <view class='name'>打谱</view>
+      <view class='detail'>修为+1 棋艺+1</view>
+    </view>
+    <view wx:if="{{qiyi >= 10}}" class='menu-button' bindtap='bindDuiyiTap'>
+      <view class='name'>对弈</view>
+      <view class='detail'>修为+1 棋艺+3</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/jiyi/lingyin/lingyin.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <view class='menu-button' bindtap='bindZhifaTap'>
+      <view class='name'>练习指法</view>
+      <view class='detail'>修为+1 音律+1</view>
+    </view>
+    <view wx:if="{{yinlv >= 10}}" class='menu-button' bindtap='bindZouyueTap'>
+      <view class='name'>奏乐</view>
+      <view class='detail'>修为+1 音律+3</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+<!--pages/jiyi/taiwu/taiwu.wxml-->
+<view class='container'>
+  <view wx:if="{{role == 'taiwudizi'}}" class='menu'>
+    <view class='menu-button' bindtap='bindChixingyunTap'>
+      <view class='name'>炽星陨</view>
+      <view class='detail'>修为+4</view>
+    </view>
+    <view class='menu-button' bindtap='bindYefengwuTap'>
+      <view class='name'>叶风舞</view>
+      <view class='detail'>修为+4</view>
+    </view>
+    <view class='menu-button' bindtap='bindJiaoyanluTap'>
+      <view class='name'>蛟岩戮</view>
+      <view class='detail'>修为+4</view>
+    </view>
+  </view>
+  <view wx:else>掌门不在</view>
+</view>

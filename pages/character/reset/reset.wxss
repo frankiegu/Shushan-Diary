@@ -1,0 +1,4 @@
+/* pages/character/reset/reset.wxss */
+.container {
+  margin-top: 32rpx;
+}

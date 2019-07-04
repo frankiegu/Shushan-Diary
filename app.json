@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/xiulian/xiulian",
+    "pages/event/event",
+    "pages/fight/fight",
+    "pages/zawu/zawu",
+    "pages/character/character",
+    "pages/jiyi/jiyi",
+    "pages/jiyi/taiwu/taiwu",
+    "pages/jiyi/caogu/caogu",
+    "pages/jiyi/qingshi/qingshi",
+    "pages/jiyi/yipin/yipin",
+    "pages/jiyi/yushu/yushu",
+    "pages/jiyi/tiebi/tiebi",
+    "pages/jiyi/lingyin/lingyin",
+    "pages/jiyi/ziyin/ziyin",
+    "pages/room/room",
+    "pages/room/wuqijia/wuqijia",
+    "pages/room/shujia/shujia",
+    "pages/room/zawu/zawu",
+    "pages/room/wuqi/wuqi",
+    "pages/room/shu/shu",
+    "pages/room/yaogui/yaogui",
+    "pages/room/zawugui/zawugui",
+    "pages/room/yao/yao",
+    "pages/youli/youli",
+    "pages/character/reset/reset",
+    "pages/biguan/biguan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "蜀山",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bbb",
+    "selectedColor": "#333",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "蜀山"
+      },
+      {
+        "pagePath": "pages/room/room",
+        "text": "房间"
+      },
+      {
+        "pagePath": "pages/character/character",
+        "text": "人物"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

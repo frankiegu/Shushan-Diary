@@ -1,0 +1,14 @@
+<!--pages/jiyi/yipin/yipin.wxml-->
+<view class='container'>
+  <view class='menu'>
+    <view class='menu-button' bindtap='bindHejiuTap'>
+      <view class='name'>喝酒</view>
+      <view class='detail'>修为+1 酒量+1</view>
+    </view>
+    <view wx:if="{{jiuliang >= 10}}" class='menu-button' bindtap='bindHuaquanTap'>
+      <view class='name'>划拳</view>
+      <view class='detail'>修为+1 酒量+3</view>
+    </view>
+  </view>
+</view>
+
