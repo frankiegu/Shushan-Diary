@@ -14,5 +14,8 @@
 #### 变量名
 仙侠游戏中很多内容不适合翻译成英文，所以代码里很多变量名用了拼音。
 
+## 预览
+<img src="https://github.com/jokersandwich/Shushan-Diary/blob/master/image/preview.jpg" width="800">
+
 ## 小程序码
 ![qr_code](https://github.com/jokersandwich/Shushan-Diary/blob/master/image/qr_code.jpg)
